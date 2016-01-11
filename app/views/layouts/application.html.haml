@@ -8,7 +8,7 @@
     = csrf_meta_tags
   %body
     / Fixed navbar
-    = if user_signed_in?
+    - if user_signed_in?
       %nav.navbar.navbar-default.navbar-fixed-top
         .container
           .navbar-header
