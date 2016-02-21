@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160221223729) do
     t.string   "address"
     t.string   "phone_number"
     t.string   "email_address"
-    t.string   "alias"
+    t.string   "client_alias"
     t.string   "dependents"
     t.text     "notes"
     t.datetime "created_at",    null: false
